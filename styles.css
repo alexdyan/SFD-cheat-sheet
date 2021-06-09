@@ -43,11 +43,10 @@ td {
 .guide {
     text-align: center;
 }
-.guide > table {
-    width: 90%;
+.guide-table {
     margin: auto;
 }
-.guide > h2 {
+.guide-heading {
     font-size: 2rem;
     color: #ee4c8d;
 }

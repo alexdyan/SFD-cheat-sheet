@@ -1,0 +1,53 @@
+/* general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+}
+section {
+    padding: 2% 15%;
+}
+
+/* title section */
+.title {
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 3rem;
+    color: #ee4c8d;
+}
+
+/* docs sections */
+h2 {
+    margin: 0;
+    padding-bottom: 2%;
+    color: #ec5959;
+}
+table {
+    border-collapse: collapse;
+}
+td.header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ee4c8d;
+}
+td {
+    padding: 12px;
+    border: 1px solid #e3e3e3;
+}
+
+/* guide section */
+.guide {
+    text-align: center;
+}
+.guide > table {
+    width: 90%;
+    margin: auto;
+}
+.guide > h2 {
+    font-size: 2rem;
+    color: #ee4c8d;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SFD p5.js Cheat Sheet</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section class="title">
+    <img src="sfd_logo.png" alt="stem from dance logo" />
+    <div class="headings">
+      <h1>p5.js Cheat Sheet</h1>
+    </div>
+  </section>
+
+  <!-- ************************************************ -->
+
+  <section class="color">
+    <h2>Color</h2>
+    <table>
+      <tr>
+        <td>background( gray )<br>background( r, g, b )</td>
+        <td>changes the background color</td>
+      </tr>
+      <tr>
+        <td>fill( gray )<br>fill( r, g, b )</td>
+        <td>changes the color of a shape</td>
+      </tr>
+      <tr>
+        <td>noFill()</td>
+        <td>removes the inside of a shape</td>
+      </tr>
+      <tr>
+        <td>stroke( gray )<br>stroke( r, g, b )</td>
+        <td>changes the border color of a shape</td>
+      </tr>
+      <tr>
+        <td>noStroke()</td>
+        <td>removes the border of a shape</td>
+      </tr>
+      <tr>
+        <td>strokeWeight( size )</td>
+        <td>changes the thickness of a shape’s border</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ************************************************ -->
+
+  <section class="shapes">
+    <h2>Shapes</h2>
+    <table>
+      <tr>
+        <td>square( x, y, size )</td>
+        <td>draws a square</td>
+      </tr>
+      <tr>
+        <td>rect( x, y, width, height )</td>
+        <td>draws a rectangle</td>
+      </tr>
+      <tr>
+        <td>circle( x, y, diameter )</td>
+        <td>draws a circle</td>
+      </tr>
+      <tr>
+        <td>ellipse( x, y, width, height )</td>
+        <td>draws an ellipse</td>
+      </tr>
+      <tr>
+        <td>line( x1, y1, x2, y2 )</td>
+        <td>draws a line</td>
+      </tr>
+      <tr>
+        <td>triangle( x1, y1, x2, y2, x3, y3 )</td>
+        <td>draws a triangle</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ************************************************ -->
+
+  <section class="image-video">
+    <h2>Images and Video</h2>
+    <table>
+      <tr>
+        <td>loadImage( “file-name.jpg”, x, y, width, height )</td>
+        <td>loads an image file, goes in the <b>setup()</b> function</td>
+      </tr>
+      <tr>
+        <td>createCapture( VIDEO )</td>
+        <td>activates your webcam, goes in the <b>setup()</b> function</td>
+      </tr>
+      <tr>
+        <td>image( name, x, y, width, height )</td>
+        <td>displays an image or video</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ************************************************ -->
+
+  <section class="structure">
+    <h2>Structure</h2>
+    <table>
+      <tr>
+        <td>setup()</td>
+        <td>runs once, used to program the settings</td>
+      </tr>
+      <tr>
+        <td>draw()</td>
+        <td>after <b>setup()</b>, it loops forever until the program is stopped or you call <b>noLoop()</b></td>
+      </tr>
+      <tr>
+        <td>preload()</td>
+        <td>optional, runs once before <b>setup()</b>, used to load files</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ************************************************ -->
+
+  <section class="guide">
+    <h2>How to read this reference</h2>
+    <table>
+      <tr>
+        <td class="header">Parameter</td>
+        <td class="header">What does it mean?</td>
+        <td class="header">What can the value be?</td>
+      </tr>
+      <tr>
+        <td>gray</td>
+        <td>a shade of gray</td>
+        <td>number from 0 to 255</td>
+      </tr>
+      <tr>
+        <td>r g b</td>
+        <td>red, green, blue</td>
+        <td>numbers from 0 to 255</td>
+      </tr>
+      <tr>
+        <td>x</td>
+        <td>horizontal position</td>
+        <td>any number</td>
+      </tr>
+      <tr>
+        <td>y</td>
+        <td>vertical position</td>
+        <td>any number</td>
+      </tr>
+      <tr>
+        <td>size</td>
+        <td>size of something in pixels</td>
+        <td>any number</td>
+      </tr>
+      <tr>
+        <td>width</td>
+        <td>width of a shape</td>
+        <td>any number</td>
+      </tr>
+      <tr>
+        <td>height</td>
+        <td>height of a shape</td>
+        <td>any number</td>
+      </tr>
+      <tr>
+        <td>diameter</td>
+        <td>size of a circle from edge to edge</td>
+        <td>any number</td>
+      </tr>
+      <tr>
+        <td>x1 y1<br>x2 y2...</td>
+        <td>format used when you need multiple xy points</td>
+        <td>any numbers</td>
+      </tr>
+      <tr>
+        <td>name</td>
+        <td>variable name for an image or video</td>
+        <td>name of a variable</td>
+      </tr>
+      <tr>
+        <td>VIDEO</td>
+        <td>keyword to use the webcam</td>
+        <td>VIDEO</td>
+      </tr>
+    </table>
+  </section>
+    
+</body>
+</html>
